@@ -288,7 +288,7 @@ const ShaderMaterial: React.FC<ShaderMaterialProps> = ({
   }, [source, getUniforms]);
 
   return (
-    <mesh ref={ref as any}>
+    <mesh ref={ref}>
       <planeGeometry args={[2, 2]} />
       <primitive object={material} attach="material" />
     </mesh>
