@@ -6,7 +6,6 @@ import {outfit} from "@/app/font";
 import gsap from "gsap";
 import {useGSAP} from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import {HeroHighlight} from "@/components/ui/hero-highlight";
 import {CardSpotlight} from "@/components/ui/card-spotlight";
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
